@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    height: 100%;
+    width: 100%;
+    
+}
+.nav
+{
+    position: fixed;
+    margin-left: 30px;
+    height: 100px;
+    z-index: 999;
+    display: flex;
+    flex-direction: row;
+}
+.nav img{
+    height: 100px;
+    width: 200px;
+    margin-left: 100px;
+
+}
+.nav input{
+    margin: 30px 200px 20px 60px;
+    padding: 20px;
+    height: 40px;
+    width: 300px;
+    border: 0px solid black;
+    border-radius: 20px;
+}
+.nav h3{
+    margin: 43px 60px 20px 500px;
+
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(175, 175, 175);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: visible;
+
+}
+.line-div{
+    
+    display: flex;
+    overflow: visible;
+    flex-direction: row;
+    align-items: baseline;
+}
+.thor{
+    margin: 0px 8px 0px 0px;
+    height: 250px;
+    width: 230px;
+    border-radius: 25px;
+    background: linear-gradient(to bottom left, #c31432, #240b36);
+    z-index: -9;
+}
+.captain{
+    margin: 0px 8px 0px 8px;
+    height: 220px;
+    width: 230px;
+    background: linear-gradient(to bottom left, #4c4788, #0f0c29);
+    border-radius: 25px;
+}
+.ironman{
+    margin: 0px 8px 0px 0px;
+    height: 260px;
+    width: 210px;
+    background: linear-gradient(to bottom left, #e73a4e, #5c160f);
+       border-radius: 25px;
+}
+.black{
+    margin: 0px 8px 0px 8px;
+    height: 210px;
+    width: 210px;
+    background: linear-gradient(to bottom left, #1b74ab, #040665);
+       border-radius: 25px;
+}
+.hulk{
+    margin: 0px 0px 0px 8px;
+    height: 190px;
+    overflow: visible;
+    width: 210px;
+    background: linear-gradient(to bottom left,#0f9b0f, #000000 );
+       border-radius: 25px;
+}
+.hawkeye{
+    margin: 0px 0px 0px 8px;
+    height: 170px;
+    width: 210px;
+    /* background: linear-gradient(to bottom left, #d38312, #a83279); */
+       border-radius: 25px;
+       background: linear-gradient(to bottom left, #eb5757, #000000);
+}
+.thorimg{
+    position: absolute;
+    top: 25%;
+    height: 300px;
+    margin-left: 23px;
+    width: 210px;
+    z-index: 999;
+}
+.hulkimg{
+    position: absolute;
+    top: 31%;
+    margin-left: 15px;
+    height: 280px;
+    z-index: 999;
+    width: 200px;
+}
+.captionimg{
+    position: absolute;
+    top: 22%;
+    margin-left: 40px;
+    height: 320px;
+    width: 160px;
+    z-index: 999;
+}
+.ironimg{
+    position: absolute;
+    top: 24%;
+    margin-left: 33px;
+    height: 310px;
+    z-index: 999;
+    width: 130px;
+}
+.blackimg{
+    z-index: 999;
+    position: absolute;
+    top:29%;
+    margin-left: 60px;
+    height: 270px;
+    width: 130px;
+}
+.hawkimg{
+    position: absolute;
+    top: 33%;
+    margin-left: 10px;
+    z-index: 999;
+    height: 270px;
+    width: 220px;
+}
+
+
+.page
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 500px;
+    width: 92%;
+    overflow: hidden;
+}
+.div1{
+    /* background-color: #0f9b0f; */
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    width: 49.7%;
+}
+.div2{
+    /* background-color: #0f9b0f; */
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    width: 49.7%;
+}
+#cap-head{
+    text-align: center;
+    color: goldenrod;
+    font-family: 'Gideon Roman', cursive;
+    /* padding: 200 px; */
+    opacity: 0;
+    padding-top: 120px;
+}
+#captain-details{
+    font-family: 'Ysabeau Office', sans-serif;
+
+    margin-top: 0px;
+    margin-left: 390px;
+    margin-right: 100px;
+    opacity: 0;
+    color: white;
+}
+#thor-head{
+    text-align: center;
+    font-family: 'Gideon Roman', cursive;
+    color: goldenrod;
+    /* padding: 200 px; */
+    opacity: 0;
+    padding-top: 170px;
+    padding-right: 25px;
+}
+#thor-details{
+    font-family: 'Ysabeau Office', sans-serif;
+
+    margin-left: 400px;
+    margin-right: 100px;
+    padding-top:30px ;
+    opacity: 0;
+    color: white;
+}
+
+#hulk-head{
+    font-family: 'Gideon Roman', cursive;
+    text-align: center;
+    color: goldenrod;
+    opacity: 0;
+    /* padding: 200 px; */
+    padding-right: 18px;
+    padding-top: 110px;
+}
+
+#hulk-details{
+    font-family: 'Ysabeau Office', sans-serif;
+
+    margin-left: 400px;
+    margin-right: 100px;
+    padding-top:30px ;
+    opacity: 0;
+    color: white;
+}
+#iron-head{
+    text-align: center;
+    font-family: 'Gideon Roman', cursive;
+    color: goldenrod;
+    padding-right: 30px;
+    /* padding: 200 px; */
+    opacity: 0;
+    padding-top: 180px;
+}
+#iron-details{
+    margin-left: 400px;
+    font-family: 'Ysabeau Office', sans-serif;
+
+    margin-right: 100px;
+    padding-top:30px ;
+    opacity: 0;
+    color: white;
+}
+#black-head{
+    text-align: center;
+    font-family: 'Gideon Roman', cursive;
+    color: goldenrod;
+    /* padding: 200 px; */
+    padding-top: 120px;
+    padding-right: 43px;
+    opacity: 0;
+    
+}
+#black-details{
+    font-family: 'Ysabeau Office', sans-serif;
+    margin-left: 370px;
+    margin-right: 100px;
+    padding-top:30px ;
+    opacity: 0;
+    color: white;
+}
+#hawk-head{
+    text-align: center;
+    color: goldenrod;
+    /* padding: 200 px; */
+    padding-top: 120px;
+    padding-right: 33px;
+    opacity: 0;
+    font-family: 'Gideon Roman', cursive;
+}
+#hawk-details{
+    margin-left: 370px;
+    font-family: 'Ysabeau Office', sans-serif;
+
+    margin-right: 100px;
+    padding-top:30px ;
+    opacity: 0;
+    color: white;
+}
+
+
+#btn1,#btn2, #btn3, #btn4, #btn5, #btn6{
+    background-color: transparent;
+    border: 0px;
+    color: white;
+    z-index: 999;
+    font-size: 20px;
+    opacity: 0;
+}
+#btn1:hover, #btn2:hover, #btn3:hover, #btn4:hover, #btn5:hover, #btn6:hover{
+    color: #000000;
+    transition-duration: 0.5s;
+}
+.outer3{
+    overflow: visible;
+}
+
+.image-div{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 170px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+}
+
+.div-img1, .div-img2, .div-img3, .div-img4, .div-img5, .div-img6{
+    padding: 5px;
+    height: 0px;
+    opacity:0;
+    width: 0px;
+    
+}
